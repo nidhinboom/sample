@@ -36,5 +36,19 @@
  * @return <Add Return Informaiton here>
  */
 
+char print_statistics(unsigned char *data,unsigned int size);
+
+
+void print_array(unsigned char *data,unsigned int size);
+
+char find_median(unsigned char *data,unsigned int size);
+
+char find_mean(unsigned char *data,unsigned int size);
+
+char find_maximum(unsigned char *data,unsigned int size);
+
+char find_minimum(unsigned char *data,unsigned int size);
+
+void sort_array(unsigned char *data,unsigned int size);
 
 #endif /* __STATS_H__ */
